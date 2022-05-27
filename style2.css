@@ -250,13 +250,9 @@ footer{
     background-color: #1f1f1f;
     padding-bottom: 0px;
 }
-#play{
-	display: none;
-}
-audio {
-	display: none;
-}
+
 button{
+    
     color: white;
     padding: 9px 25px;
     background-color: #4bcffa;
@@ -269,3 +265,7 @@ button:hover{
     background-color: rgba(11, 232, 129,1.0);
     
   }
+.tombol{
+   
+    background-color: #4bcffa;
+}

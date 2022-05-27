@@ -1,11 +1,17 @@
 var musik=new Audio();
 musik.src="hbd.mp3";
-musik.loop=true;
-musik.play();
+
 function mulai(){
-    var audio = document.getElementById("play");
-    play.addEventListener('click', fplay);
+    var play=document.getElementById('play');
+    play.addEventListener('click',fplay);
+
+    function fplay(){
+        musik.play();
+        musik.loop=true;
+    }
     
-};
-window.addEventListener('load',mulai);
+}
+
+
+window.addEventListener('load', mulai);
     
