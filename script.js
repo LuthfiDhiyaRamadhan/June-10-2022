@@ -1,4 +1,4 @@
-const hbd=new Date("May 27 2022 14:08:00").getTime();
+const hbd=new Date("June 10 2022 00:00:00").getTime();
 
 const countdown = setInterval(function(){
     const currentTime = new Date().getTime();
